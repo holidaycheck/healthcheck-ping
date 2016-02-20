@@ -1,0 +1,29 @@
+{
+    "name": "healthcheck-ping",
+    "version": "1.0.0",
+    "description": "Express middleware exposing a health check endpoint",
+    "main": "lib/healthcheckMiddleware",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.13.3"
+    },
+    "devDependencies": {
+        "eslint": "~1.10.0",
+        "eslint-config-holidaycheck": "https://github.com/holidaycheck/eslint-config-holidaycheck.git",
+        "chai": "3.4.1",
+        "mocha": "2.3.3",
+        "sinon": "1.17.2",
+        "sinon-chai": "2.8.0",
+        "supertest": "1.1.0",
+        "supertest-as-promised": "2.0.2",
+        "istanbul": "0.4.0"
+    },
+    "scripts": {
+        "test:functional": "mocha test/functional --reporter spec --recursive",
+        "test:unit": "istanbul test _mocha -- test/unit --reporter spec --recursive",
+        "pretest": "eslint .",
+        "test": "npm run test:unit --coverage && npm run test:functional",
+        "posttest": "npm run check-coverage",
+        "check-coverage": "istanbul check-coverage --statement 100 --branch 100 --function 100 --lines 100"
+    }
+}
