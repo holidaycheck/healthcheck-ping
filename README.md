@@ -13,6 +13,10 @@ The endpoint returns a static json response:
     "status": "OK"
 }
 ```
+## Installation
+```
+$ npm install healthcheck-ping --save
+```
 
 ## Usage
 
