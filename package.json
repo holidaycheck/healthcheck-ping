@@ -3,6 +3,11 @@
     "version": "1.0.0",
     "description": "Express middleware exposing a health check endpoint",
     "main": "lib/healthcheckMiddleware",
+    "files": [
+        "lib/",
+        "LICENSE",
+        "README.md"
+    ],
     "license": "MIT",
     "author": "Mathias Schreck <mathias.schreck@holidaycheck.com>",
     "dependencies": {
