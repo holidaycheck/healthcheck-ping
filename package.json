@@ -8,8 +8,8 @@
         "express": "^4.13.3"
     },
     "devDependencies": {
-        "eslint": "~1.10.0",
-        "eslint-config-holidaycheck": "https://github.com/holidaycheck/eslint-config-holidaycheck.git",
+        "eslint": "2.2.0",
+        "eslint-config-holidaycheck": "0.2.0",
         "chai": "3.4.1",
         "mocha": "2.3.3",
         "sinon": "1.17.2",
