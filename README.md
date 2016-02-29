@@ -1,3 +1,8 @@
+[![NPM Version](https://img.shields.io/npm/v/healthcheck-ping.svg?style=flat)](https://www.npmjs.org/package/healthcheck-ping)
+[![Build Status](https://img.shields.io/travis/holidaycheck/healthcheck-ping/master.svg?style=flat)](https://travis-ci.org/holidaycheck/healthcheck-ping)
+[![Coverage Status](https://img.shields.io/coveralls/holidaycheck/healthcheck-ping.svg?style=flat)](https://coveralls.io/r/holidaycheck/healthcheck-ping)
+[![Dependencies](http://img.shields.io/david/holidaycheck/healthcheck-ping.svg?style=flat)](https://david-dm.org/holidaycheck/healthcheck-ping)
+
 healthcheck-ping
 ======================
 
