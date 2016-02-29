@@ -4,6 +4,7 @@
     "description": "Express middleware exposing a health check endpoint",
     "main": "lib/healthcheckMiddleware",
     "license": "MIT",
+    "author": "Mathias Schreck <mathias.schreck@holidaycheck.com>",
     "dependencies": {
         "express": "^4.13.3"
     },
