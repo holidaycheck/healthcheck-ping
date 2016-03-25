@@ -14,7 +14,7 @@
         "express": "^4.13.3"
     },
     "devDependencies": {
-        "coveralls": "2.11.8",
+        "coveralls": "2.11.9",
         "eslint": "2.4.0",
         "eslint-config-holidaycheck": "0.4.0",
         "chai": "3.5.0",
