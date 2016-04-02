@@ -16,7 +16,7 @@
     "devDependencies": {
         "coveralls": "2.11.9",
         "eslint": "2.5.3",
-        "eslint-config-holidaycheck": "0.5.0",
+        "eslint-config-holidaycheck": "0.6.0",
         "chai": "3.5.0",
         "mocha": "2.4.5",
         "sinon": "1.17.3",
