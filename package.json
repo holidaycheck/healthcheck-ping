@@ -18,7 +18,7 @@
         "eslint": "2.9.0",
         "eslint-config-holidaycheck": "0.7.0",
         "chai": "3.5.0",
-        "mocha": "2.4.5",
+        "mocha": "2.5.2",
         "sinon": "1.17.4",
         "sinon-chai": "2.8.0",
         "supertest": "1.2.0",
