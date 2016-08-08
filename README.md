@@ -26,7 +26,7 @@ $ npm install healthcheck-ping --save
 ## Usage
 
 ```js
-var createHealthcheckMiddleware = require('healthcheck-middleware');
+var createHealthcheckMiddleware = require('healthcheck-ping');
 
 var server = express();
 
