@@ -1,6 +1,6 @@
 'use strict';
 
-var supertest = require('supertest-as-promised'),
+var supertest = require('supertest'),
     express = require('express'),
     server = express(),
     healthcheckMiddleware = require('../../lib/healthcheckMiddleware')();
