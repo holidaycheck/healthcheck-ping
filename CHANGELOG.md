@@ -1,3 +1,9 @@
+## 2.0.1 (July 3, 2018)
+
+### Bug Fixes
+
+* 🐛 Fix TypeScript declaration file ([#41](https://github.com/holidaycheck/healthcheck-ping/pull/41))
+
 ## 2.0.0 (July 3, 2018)
 
 ### Breaking Changes
