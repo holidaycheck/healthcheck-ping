@@ -6,9 +6,10 @@
     "files": [
         "lib/",
         "LICENSE",
-        "README.md"
+        "README.md",
+        "types/index.d.ts"
     ],
-    "types": "types",
+    "types": "types/index.d.ts",
     "license": "MIT",
     "author": "Mathias Schreck <mathias.schreck@holidaycheck.com>",
     "contributors": [
