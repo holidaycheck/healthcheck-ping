@@ -1,3 +1,30 @@
+## 2.0.0 (July 3, 2018)
+
+### Breaking Changes
+
+* Drop nodejs support for versions < 8 ([#39](https://github.com/holidaycheck/healthcheck-ping/pull/39))
+
+### Features
+
+*  Add TypeScript type declarations ([#38](https://github.com/holidaycheck/healthcheck-ping/pull/38))
+
+### Documentation
+
+* Fix module name in README for the import ([#36](https://github.com/holidaycheck/healthcheck-ping/pull/36))
+
+### Dependency Upgrades
+
+* Update all dependencies ([#40](https://github.com/holidaycheck/healthcheck-ping/pull/40))
+* Update eslint-config-holidaycheck to version 0.9.0 🚀 ([#33](https://github.com/holidaycheck/healthcheck-ping/pull/33))
+* Update eslint-config-holidaycheck to version 0.8.0 🚀 ([#26](https://github.com/holidaycheck/healthcheck-ping/pull/26))
+* Update istanbul to version 0.4.3 🚀 ([#18](https://github.com/holidaycheck/healthcheck-ping/pull/18))
+* Update eslint to version 2.11.1 🚀 ([#32](https://github.com/holidaycheck/healthcheck-ping/pull/32))
+* Update mocha to version 2.5.3 🚀 ([#30](https://github.com/holidaycheck/healthcheck-ping/pull/30))
+* Update sinon to version 1.17.4 🚀 ([#22](https://github.com/holidaycheck/healthcheck-ping/pull/22))
+* Update eslint to version 2.9.0 🚀 ([#21](https://github.com/holidaycheck/healthcheck-ping/pull/21))
+* Update eslint-config-holidaycheck to version 0.7.0 🚀 ([#19](https://github.com/holidaycheck/healthcheck-ping/pull/19))
+* Update eslint to version 2.7.0 🚀 ([#17](https://github.com/holidaycheck/healthcheck-ping/pull/17))
+
 ## 1.1.0 (April 3, 2016)
 
 ### Enhancements
