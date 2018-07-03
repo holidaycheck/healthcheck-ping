@@ -26,23 +26,40 @@
         "eslint-config-holidaycheck": "0.13.1",
         "chai": "4.1.2",
         "mocha": "5.2.0",
+        "nyc": "12.0.2",
         "sinon": "6.1.0",
         "sinon-chai": "3.2.0",
         "supertest": "3.1.0",
         "supertest-as-promised": "4.0.2",
-        "istanbul": "0.4.5",
         "pr-log": "3.0.0"
     },
     "scripts": {
         "test:functional": "mocha test/functional --reporter spec --recursive",
-        "test:unit": "istanbul test _mocha -- test/unit --reporter spec --recursive",
+        "test:unit": "mocha test/unit --reporter spec --recursive",
         "dtslint": "dtslint types",
         "pretest": "eslint . && npm run dtslint",
-        "test": "npm run test:unit --coverage && npm run test:functional",
-        "posttest": "npm run check-coverage",
-        "check-coverage": "istanbul check-coverage --statement 100 --branch 100 --function 100 --lines 100",
+        "test": "nyc npm run test:unit && npm run test:functional",
         "changelog": "pr-log",
         "coveralls": "cat ./build/coverage/lcov.info | coveralls"
+    },
+    "nyc": {
+        "lines": 100,
+        "statements": 100,
+        "functions": 100,
+        "branches": 100,
+        "include": [
+            "lib/**/*.js"
+        ],
+        "reporter": [
+            "lcov",
+            "text-summary"
+        ],
+        "cache": false,
+        "all": true,
+        "check-coverage": true,
+        "sourceMap": true,
+        "instrumment": true,
+        "report-dir": "./build/coverage"
     },
     "repository": {
         "type": "git",
