@@ -8,13 +8,19 @@
         "LICENSE",
         "README.md"
     ],
+    "types": "types",
     "license": "MIT",
     "author": "Mathias Schreck <mathias.schreck@holidaycheck.com>",
+    "contributors": [
+        "Christian Rackerseder <christian.rackerseder@holidaycheck.com>"
+    ],
     "dependencies": {
         "express": "^4.13.3"
     },
     "devDependencies": {
+        "@types/express": "4.16.0",
         "coveralls": "3.0.2",
+        "dtslint": "0.3.0",
         "eslint": "5.0.1",
         "eslint-config-holidaycheck": "0.13.1",
         "chai": "4.1.2",
@@ -29,7 +35,8 @@
     "scripts": {
         "test:functional": "mocha test/functional --reporter spec --recursive",
         "test:unit": "istanbul test _mocha -- test/unit --reporter spec --recursive",
-        "pretest": "eslint .",
+        "dtslint": "dtslint types",
+        "pretest": "eslint . && npm run dtslint",
         "test": "npm run test:unit --coverage && npm run test:functional",
         "posttest": "npm run check-coverage",
         "check-coverage": "istanbul check-coverage --statement 100 --branch 100 --function 100 --lines 100",
