@@ -14,17 +14,17 @@
         "express": "^4.13.3"
     },
     "devDependencies": {
-        "coveralls": "2.11.9",
-        "eslint": "2.11.1",
-        "eslint-config-holidaycheck": "0.9.0",
-        "chai": "3.5.0",
-        "mocha": "2.5.3",
-        "sinon": "1.17.4",
-        "sinon-chai": "2.8.0",
-        "supertest": "1.2.0",
-        "supertest-as-promised": "3.1.0",
-        "istanbul": "0.4.3",
-        "pr-log": "1.4.0"
+        "coveralls": "3.0.2",
+        "eslint": "5.0.1",
+        "eslint-config-holidaycheck": "0.13.1",
+        "chai": "4.1.2",
+        "mocha": "5.2.0",
+        "sinon": "6.1.0",
+        "sinon-chai": "3.2.0",
+        "supertest": "3.1.0",
+        "supertest-as-promised": "4.0.2",
+        "istanbul": "0.4.5",
+        "pr-log": "3.0.0"
     },
     "scripts": {
         "test:functional": "mocha test/functional --reporter spec --recursive",
